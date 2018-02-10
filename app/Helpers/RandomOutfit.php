@@ -2,8 +2,6 @@
 
 namespace App\Helpers;
 
-const IMG_SIZE_W = 175;
-
 class RandomOutfit {
 
 	private function getRandomItem($arr) {

@@ -1,7 +1,5 @@
 <?php
 
-use Symfony\Component\HttpFoundation\Response;
-
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -13,11 +11,16 @@ use Symfony\Component\HttpFoundation\Response;
 |
 */
 
+use Symfony\Component\HttpFoundation\Response;
 use App\Helpers\RandomOutfit;
+
+const IMG_SIZE_W = 175;
 
 $router->get('/', function () use ($router) {
     return view('main', [
-    	'title' => 'Random outfit',
-    	'content' => (new RandomOutfit())->drawRandomOutfit()
+    	'title' => 'Minimalise capsule wardrobe',
+    	'content' => view('home', [
+    		'width' => IMG_SIZE_W
+    	])
     ]);
 });

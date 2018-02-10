@@ -11,15 +11,18 @@
         <link rel="manifest" href="site.webmanifest">
         <!--<link rel="apple-touch-icon" href="icon.png">-->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <!--<link rel="stylesheet" href="css/normalize.css">-->
+        <link rel="stylesheet" href="/css/main.css">
     </head>
     <body>
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
-        
-        <?php echo $content; ?>
+        <div id="content-wrapper">
+            <div id="content">
+                <?php echo $content; ?>
+            </div>
+        </div>
 
         <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
