@@ -13,10 +13,11 @@ use Symfony\Component\HttpFoundation\Response;
 |
 */
 
-$router->get('/', function () use ($router) {
-    return $router->app->version().'<br /><br /><a href="/hello-world">HW</a>.';
-});
+use App\Helpers\RandomOutfit;
 
-$router->get('/hello-world', function () use ($router) {
-	return "<h1>HELLO WORLD.</h1>";
+$router->get('/', function () use ($router) {
+    return view('main', [
+    	'title' => 'Random outfit',
+    	'content' => (new RandomOutfit())->drawRandomOutfit()
+    ]);
 });
