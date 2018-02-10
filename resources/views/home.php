@@ -7,33 +7,72 @@
 	</div>
 	<div class="wardobe-section">
 		<h2>T-shirts</h2>
-		<img src="/images/white-tshirt.jpg" alt="White t-shirt" width="<?php echo $width; ?>" />
-		<img src="/images/grey-tshirt.jpg" alt="Grey t-shirt" width="<?php echo $width; ?>" />
-		<img src="/images/black-tshirt.jpg" alt="Black t-shirt" width="<?php echo $width; ?>" />
+		<div class="wardobe-item">
+			<img src="/images/white-tshirt.jpg" alt="White t-shirt" width="200" /><br />
+			<p>White t-shirt</p>
+		</div>
+		<div class="wardobe-item">
+			<img src="/images/grey-tshirt.jpg" alt="Grey t-shirt" width="175" />
+			<p>Grey t-shirt</p>
+		</div>
+		<div class="wardobe-item">
+			<img src="/images/black-tshirt.jpg" alt="Black t-shirt" width="150" />
+			<p>Black t-shirt</p>
+		</div>
 	</div>
 	<div class="wardobe-section">
 		<h2>Shirts</h2>
-		<img src="/images/blue-buttondown.jpg" alt="Blue button down shirt" width="<?php echo $width; ?>" />
-		<img src="/images/white-dress.jpg" alt="White dress shirt" width="<?php echo $width; ?>" />
+		<div class="wardobe-item">
+			<img src="/images/blue-buttondown.jpg" alt="Blue button down shirt" width="200" />
+			<p>Blue button down shirt</p>
+		</div>
+		<div class="wardobe-item">
+			<img src="/images/white-dress.jpg" alt="White dress shirt" width="160" />
+			<p>White dress shirt</p>
+		</div>
 	</div>
 	<div class="wardobe-section">
 		<h2>Sweaters</h2>
-		<img src="/images/navy-jumper.jpg" alt="Navy sweater" width="<?php echo $width; ?>" />
-		<img src="/images/grey-jumper.jpg" alt="Grey sweater" width="<?php echo $width; ?>" />
-		<img src="/images/black-jumper.jpg" alt="Black sweater" width="<?php echo $width; ?>" />
+		<div class="wardobe-item">
+			<img src="/images/navy-jumper.jpg" alt="Navy sweater" width="150" />
+			<p>Navy sweater</p>
+		</div>
+		<div class="wardobe-item">
+			<img src="/images/grey-jumper.jpg" alt="Grey sweater" width="180" />
+			<p>Grey sweater</p>
+		</div>
+		<div class="wardobe-item">
+			<img src="/images/black-jumper.jpg" alt="Black sweater" width="190" />
+			<p>Black sweater</p>
+		</div>
 	</div>
 	<div class="wardobe-section">
 		<h2>Suit jackets</h2>
-		<img src="/images/navy-jacket.jpg" alt="Navy suit jacket" width="<?php echo $width; ?>" />
+		<div class="wardobe-item">
+			<img src="/images/navy-jacket.jpg" alt="Navy suit jacket" width="175" />
+			<p>Navy suit jacket</p>
+		</div>
 	</div>
 	<div class="wardobe-section">
 		<h2>Trousers</h2>
-		<img src="/images/grey-chinos.jpg" alt="Grey chino trousers" width="<?php echo $width; ?>" />
-		<img src="/images/blue-jeans.jpg" alt="Blue jeans" width="<?php echo $width; ?>" />
+		<div class="wardobe-item">
+			<img src="/images/grey-chinos.jpg" alt="Grey chinos" width="140" />
+			<p>Grey chinos</p>
+		</div>
+		<div class="wardobe-item">
+			<img src="/images/blue-jeans.jpg" alt="Blue jeans" width="200" />
+			<p>Blue jeans</p>
+		</div>
 	</div>
 	<div class="wardobe-section">
 		<h2>Shoes</h2>
-		<img src="/images/white-trainers.jpg" alt="White trainers" width="<?php echo $width; ?>" />
-		<img src="/images/brown-leather.jpg" alt="Brown leather brogue shoes" width="<?php echo $width; ?>" />
+		<div class="wardobe-item">
+			<img src="/images/white-trainers.jpg" alt="White trainers" width="200" />
+			<p>White trainers</p>
+		</div>
+		<div class="wardobe-item">
+			<img src="/images/brown-leather.jpg" alt="Brown leather brogue shoes" width="150" />
+			<p>Brown leather brogues</p>
+		</div>
 	</div>
 </div>

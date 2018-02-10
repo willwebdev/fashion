@@ -31,10 +31,26 @@ body {
 
 #home div.wardobe-section {
 	text-align: center;
-	border-bottom: 1px dashed #999;
+	border-bottom: 1px dashed #ccc;
 	padding-bottom: 20px;
 }
 
 #home div.wardobe-section:last-child {
 	border: 0;
 }
+
+#home div.wardobe-item {
+	display: inline-block;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+	height: 250px;
+	width: 250px;
+}
+
+#home div.wardobe-item p {
+	font-weight: bold;
+	margin: 10px 0 0 0;
+}
+
+
