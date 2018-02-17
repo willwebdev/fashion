@@ -18,7 +18,7 @@ const IMG_SIZE_W = 175;
 
 $router->get('/', function () use ($router) {
     return view('main', [
-    	'title' => 'Minimalise capsule wardrobe',
+    	'title' => 'Minimalist capsule wardrobe',
     	'content' => view('home')
     ]);
 });
