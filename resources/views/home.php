@@ -2,11 +2,14 @@
 	<h1>Minimalist capsule wardrobe</h1>
 	<div id="home-intro-panel">
 		<p>Want a minimalist capsule wardrobe? You're in the right place. Check it out below.</p>
-		<p>The idea is, if you have this set of items, you can mash up a decent outfit even if you pick items at random.</p>
+               <p>The idea is that with this set of items you can get a decent outfit even if you pick items at random.</p>
 		<p>Currently the capsule covers a smart-casual vibe, and more options will be added soon to extend the range.</p>
 	</div>
 	<div class="wardobe-section">
 		<h2>T-shirts</h2>
+		<div class="wardrobe-section-intro">
+			<p>The basics. Can be dressed up or down.</p>
+		</div>
 		<div class="wardobe-item">
 			<img src="/images/white-tshirt.jpg" alt="White t-shirt" width="200" /><br />
 			<p>White t-shirt</p>
@@ -22,6 +25,9 @@
 	</div>
 	<div class="wardobe-section">
 		<h2>Shirts</h2>
+		<div class="wardrobe-section-intro">
+			<p>Something a little dressier than a t-shirt.</p>
+		</div>
 		<div class="wardobe-item">
 			<img src="/images/blue-buttondown.jpg" alt="Blue button down shirt" width="200" />
 			<p>Blue button down shirt</p>
@@ -33,6 +39,9 @@
 	</div>
 	<div class="wardobe-section">
 		<h2>Sweaters</h2>
+		<div class="wardrobe-section-intro">
+			<p>To keep you warm. Casual with a t-shirt (or nothing) underneath, smart with a shirt. Go for a mix of v-neck and crew-neck.</p>
+		</div>
 		<div class="wardobe-item">
 			<img src="/images/navy-jumper.jpg" alt="Navy sweater" width="150" />
 			<p>Navy sweater</p>
@@ -48,6 +57,9 @@
 	</div>
 	<div class="wardobe-section">
 		<h2>Suit jackets</h2>
+		<div class="wardrobe-section-intro">
+			<p>Just one for smarter occasions. Black is too formal, grey is too corporate.</p>
+		</div>
 		<div class="wardobe-item">
 			<img src="/images/navy-jacket.jpg" alt="Navy suit jacket" width="175" />
 			<p>Navy suit jacket</p>
@@ -55,6 +67,9 @@
 	</div>
 	<div class="wardobe-section">
 		<h2>Trousers</h2>
+		<div class="wardrobe-section-intro">
+			<p>Cut should be slim, or straight. Not boot, skinny, stretch, flared, twisted... etc</p>
+		</div>
 		<div class="wardobe-item">
 			<img src="/images/grey-chinos.jpg" alt="Grey chinos" width="140" />
 			<p>Grey chinos</p>
@@ -66,6 +81,9 @@
 	</div>
 	<div class="wardobe-section">
 		<h2>Shoes</h2>
+		<div class="wardrobe-section-intro">
+			<p>Brown leather shoes are surprisingly versatile, but for beach or very casual events stick with a good pair of sneakers.</p>
+		</div>
 		<div class="wardobe-item">
 			<img src="/images/white-trainers.jpg" alt="White trainers" width="200" />
 			<p>White trainers</p>
