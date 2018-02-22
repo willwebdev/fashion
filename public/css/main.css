@@ -120,7 +120,8 @@ button#generate-outfit:focus {
 #generated-outfit {
 	text-align: center;
 	padding: 25px;
-	border-bottom: 1px dashed #ccc;
+	border: 1px dashed #ccc;
+	border-top: 0;
 	margin-bottom: 20px;
 }
 
