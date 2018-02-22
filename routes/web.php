@@ -23,6 +23,10 @@ $router->get('/', function () use ($router) {
     ]);
 });
 
+$router->get('/generate-outfit', function () use ($router) {
+    return (new RandomOutfit())->drawRandomOutfit();
+});
+
 $router->get('/capsule-wardrobe', function () use ($router) {
     return view('main', [
     	'title' => 'Minimalist men\'s capsule wardrobe',
