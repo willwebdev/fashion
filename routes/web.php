@@ -16,8 +16,17 @@ use App\Helpers\RandomOutfit;
 
 $router->get('/', function () use ($router) {
     return view('main', [
-    	'title' => 'Minimalist capsule wardrobe',
-    	'content' => view('home')
+    	'title' => 'Capsule Styling',
+    	'content' => view('outfit-generator', [
+    		"outfit" => (new RandomOutfit())->drawRandomOutfit()
+    	])
+    ]);
+});
+
+$router->get('/capsule-wardrobe', function () use ($router) {
+    return view('main', [
+    	'title' => 'Minimalist men\'s capsule wardrobe',
+    	'content' => view('capsule-wardrobe')
     ]);
 });
 

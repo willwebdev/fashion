@@ -1,7 +1,7 @@
-<div id="home">
-	<div id="home-intro-panel">
+<div id="wardrobe">
+	<div id="wardrobe-intro-panel">
 		<p>Want a minimalist capsule wardrobe? You're in the right place. Check it out below.</p>
-               <p>The idea is that with this set of items you can get a decent outfit even if you pick items at random.</p>
+		<p>The idea is that with this set of items you can get a decent outfit even if you pick items at random.</p>
 		<p>Currently the capsule covers a smart-casual vibe, and more options will be added soon to extend the range.</p>
 	</div>
 	<div class="wardobe-section">

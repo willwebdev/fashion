@@ -26,7 +26,8 @@
         <div id="top-nav">
             <div class="column-wrapper">
                 <div class="column-content">
-                    <a href="/">Home</a>
+                    <a href="/">Outfit generator</a>
+                    <a href="/capsule-wardrobe">The full capsule wardrobe</a>
                 </div>
             </div>
         </div>
