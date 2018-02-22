@@ -1,22 +1,46 @@
 body {
 	font-family: Arial;
-       font-size: 10pt;
+	font-size: 10pt;
 	margin: 0;
 	padding: 0;
 	text-align: center;
 }
 
-#content-wrapper {
+.column-wrapper {
 	width: 80%;
 	max-width: 900px;
 	margin: 0 auto;
-	background: #fff;
 	padding: 1px; /* stop margins collapsing */
 }
 
-#content {
-	margin: 25px;
+.column-content {
+	margin: 20px;
 	text-align: left;
+}
+
+#top-nav {
+	width: 100%;
+	background: #666;
+	text-align: center;
+}
+
+#top-nav a {
+	color: #eee;
+	margin-right: 10px;
+}
+
+#top-nav .column-content {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#header h1 {
+	font-family: sans-serif;
+	font-weight: lighter;
+	text-transform: uppercase;
+	font-size: 40pt;
+	letter-spacing: -4px;
+	color: #999;
 }
 
 #home h1,
@@ -26,11 +50,11 @@ body {
 }
 
 #home h1 {
-       font-size: 28pt;
+	font-size: 28pt;
 }
 
 #home h2 {
-       font-size: 22pt;
+	font-size: 22pt;
 }
 
 #home-intro-panel {
@@ -63,5 +87,16 @@ body {
 }
 
 #home div.wardrobe-section-intro p {
-       font-style: italic;
+	font-style: italic;
+}
+
+#footer {
+	background: #333;
+	padding: 50px;
+}
+
+#footer span,
+#footer a {
+	color: #666;
+	margin-right: 10px;
 }

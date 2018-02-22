@@ -1,5 +1,4 @@
 <div id="home">
-	<h1>Minimalist capsule wardrobe</h1>
 	<div id="home-intro-panel">
 		<p>Want a minimalist capsule wardrobe? You're in the right place. Check it out below.</p>
                <p>The idea is that with this set of items you can get a decent outfit even if you pick items at random.</p>

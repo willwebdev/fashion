@@ -18,10 +18,27 @@
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
-        <div id="content-wrapper">
-            <div id="content">
+
+        <div id="header">
+            <h1>Minimalist capsule wardrobe</h1>
+        </div>
+
+        <div id="top-nav">
+            <div class="column-wrapper">
+                <div class="column-content">
+                    <a href="/">Home</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="column-wrapper">
+            <div class="column-content">
                 <?php echo $content; ?>
             </div>
+        </div>
+
+        <div id="footer">
+            <span>&copy; copyright 2018 all rights reserved.</span>
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
