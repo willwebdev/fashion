@@ -93,4 +93,18 @@
 			<p>Brown leather brogues</p>
 		</div>
 	</div>
+	<div class="wardobe-section">
+		<h2>Accessories</h2>
+		<div class="wardrobe-section-intro">
+			<p>Smart-casual accessories intended to go with any outfit.</p>
+		</div>
+		<div class="wardobe-item">
+			<img src="/images/brown-watch.jpg" alt="Brown leather watch" width="200" />
+			<p>Brown leather watch</p>
+		</div>
+		<div class="wardobe-item">
+			<img src="/images/black-leather-belt.jpg" alt="Black leather belt" width="200" />
+			<p>Black leather belt</p>
+		</div>
+	</div>
 </div>
