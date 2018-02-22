@@ -14,8 +14,6 @@
 use Symfony\Component\HttpFoundation\Response;
 use App\Helpers\RandomOutfit;
 
-const IMG_SIZE_W = 175;
-
 $router->get('/', function () use ($router) {
     return view('main', [
     	'title' => 'Minimalist capsule wardrobe',
