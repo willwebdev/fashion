@@ -20,3 +20,10 @@ $router->get('/', function () use ($router) {
     	'content' => view('home')
     ]);
 });
+
+$router->get('/legal', function () use ($router) {
+    return view('main', [
+    	'title' => 'Terms and privacy policy',
+    	'content' => view('legal')
+    ]);
+});

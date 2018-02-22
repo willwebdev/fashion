@@ -39,6 +39,7 @@
 
         <div id="footer">
             <span>&copy; copyright 2018 all rights reserved.</span>
+            <a href="/legal">Terms &amp; privacy policy</a>
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
